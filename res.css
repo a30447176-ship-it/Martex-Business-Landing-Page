@@ -1,0 +1,929 @@
+/*@media only screen and (max-width: 700px) {
+     .container{
+        flex-direction: column;
+        border: 3px solid red;
+     }
+
+     .right,.left{
+        width: 100%;
+        padding: 60px;
+        height: auto;
+     }
+}
+     */
+    
+
+/* ipad pro */
+
+@media only screen and (max-width: 1025px){
+    .container {
+        width: 100%;
+        height: 50vh;
+        padding-right: 10px;
+    }
+    .faq-container {
+       width: 1000px;
+       margin-left: 20px;
+   }
+    .container p {
+    padding: 15px 20px;
+   }
+    .left,.right {
+        width: 50%;
+        height: 50vh;
+    }
+
+    .right img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .menu a{
+        margin-left: 30px;
+    }
+    
+    .build {
+        padding: 150px 20px;
+    }
+
+    .contai {
+        gap: 5px;
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+
+    .small {
+        padding: 90px 9px;
+    }
+
+    .text-section {
+        width: 70%;
+        margin-top: 100px;
+        margin-left: 35px;
+    }
+
+    .text-section h2 {
+        margin-bottom: 24px;
+    }
+
+    .image-section img {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .parrent {
+        margin-right: 0px;
+    }
+
+    .text {
+        padding: 100px 10px;
+    }
+
+    .meta {
+        height: 50vh;
+    }
+
+    .item {
+       padding: 10px 0px;
+       gap: 10px;
+   }
+
+   .item h2 {
+    font-size: 45px;
+   }
+
+   .item p {
+    font-size: 18px;
+   }
+
+   .left-img img {
+    width: 450px;
+    height: 450px;
+   }
+
+   .smarter {
+    padding: 80px 0px;
+    gap: 10px;
+    margin-top: 150px;
+   }
+
+   .section {
+    padding: 100px 30px;
+    gap: 0;
+   }
+
+   .content {
+    margin-top: 40px;
+   }
+
+   .easy {
+    min-height: 50vh;
+    padding: 0px;
+    gap: 15px;
+   }
+
+   .track img {
+    height: 50vh;
+   }
+
+   .for img {
+    height: 10vh;
+   }
+
+   .for p {
+    padding: 30px 0px;
+    font-size: 17px;
+   }
+   
+   .sec {
+    padding: 100px 10px;
+    gap: 10px;
+    margin-left: 20px;
+   }
+
+   .con h1 {
+    font-size: 50px;
+   }
+
+   .con p {
+    font-size: 18px;
+   }
+   .poin li {
+    font-size: 17px;
+   }
+
+   .bos img {
+    width: 500px;
+   }
+
+   .buil img {
+    width: 110%;
+    padding-right: 160px;
+   }
+
+   .bt {
+    margin-left: 390px;
+   }
+
+   .buil h3 {
+    margin-left: 100px;
+   }
+
+   .number {
+    margin-top: 35px;
+   }
+
+   .content p {
+    margin-bottom: 0px;
+   }
+
+   .img-box img {
+    padding-right: 10px;
+   }
+
+   .img-box {
+    margin-left: 20px;
+   }
+
+   .feature{
+    width: 510px;
+    margin-left: 530px;
+    gap: 10px;
+   }
+
+   .co {
+    padding: 10px 0;
+   }
+
+   .auto {
+    padding: 50px 30px;
+   }
+
+   .butto {
+    margin: 10px 350px;
+    margin-top: 100px;
+   }
+
+   .faq-section {
+   padding: 100px 0;
+   width: 100%;
+   }
+
+   .ge {
+    width: 81%;
+    margin-left: 100px;
+    height: 35vh;
+   }
+
+   .get h1 {
+     font-size: 45px;
+     margin-left: 150px;
+   }
+
+   .get h2 {
+     font-size: 45px;
+     margin-left: 190px;
+   }
+
+   .get p {
+    margin-left: 220px;
+  }
+
+   .butt {
+    height: 3vh;
+    margin-left: 300px;
+   }
+
+   .logos {
+    flex-wrap: nowrap;
+   }
+   .cone {
+    margin-bottom: 150px;
+   }
+
+   .box p {
+    font-size: 14px;
+   }
+
+   .child {
+    width: 460px;
+   }
+
+   .child p {
+    font-size: 19px;
+   }
+}
+
+/* iphone 14 pro max */
+
+@media only screen and (max-width: 431px){
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: block; 
+        padding-right: 0px;
+    }
+
+    .new {
+        width: 100%;
+        display: flex;
+        padding: 0px;
+    }
+
+    .menu {
+        width: 50%;
+        margin-left: 0px;
+        display: none;
+    }
+
+    .card img {
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 50px;
+    }
+    
+    .left p {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+   
+    .container button {
+        margin-left: 10px;
+        margin-right: 100px;
+    }
+
+    .build {
+        padding: 0px;
+        margin-top: 40px;
+    }
+    .build h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .card{
+        padding-left: 0px;
+    }
+
+    .card h3 {
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .card p {
+      width: 70%;
+      margin-left: 60px;
+      margin-top: 20px;
+    }
+    .build p {
+        font-size: 14px;
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .buil h3 {
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    .contai {
+        width: 100%;
+        display: block;
+        margin-bottom: 100px;
+        padding: 0px;
+    }
+
+    .few {
+      width: 90%;
+      padding: 0px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    
+
+    .small {
+        width: 100%;
+        display: block;
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .parrent {
+        width: 100%;
+        display: block;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+
+    .text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .text h1 {
+        font-size: 26px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    .and {
+        width: 60%;
+        padding-top: 170px;
+        display: block;
+        margin: 0;
+        margin-left: 80px;
+    }
+    .item {
+        margin-top: 20px;
+    }
+
+    .item h2 {
+        font-size: 35px;
+    }
+
+    .item p {
+        font-size: 15px;
+    }
+
+    .smarter {
+        width: 100%;
+        display: block;
+        padding: 0px 0px;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .right-text {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .right-text ul li {
+        font-size: 20px;
+    }
+
+    .right-text h3 {
+      font-size: 30px;
+    }
+
+    .left-img img {
+        width: 95%;
+        height: 45vh;
+        padding-right: 0px;
+        object-fit: contain;
+    }
+
+    .right-text h2 {
+       font-size: 30px;
+    }
+
+    .img-box img {
+        width: 95%;
+        height: 60vh;
+        margin-top: 10px;
+        padding-right: 0px;
+    }
+    .section {
+        width: 100%;
+        display: block;
+        padding: 0px;
+        margin-left: 20px;
+        margin-top: 90px;
+    }
+
+    .image-section {
+        margin-right: 30px;
+    }
+
+   .image-section img {
+        min-width: 95%;
+        margin-top: 50px;
+    }
+    
+    .easy {
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .easy img {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .track {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 50px;
+    }
+
+    .track img {
+        width: 96%;
+        height: 30vh;
+        padding: 0px;
+        padding-right: 0px;
+        margin-left: 8px;
+    }
+
+    .track h1 {
+        font-size: 23px;
+    }
+
+    .track p {
+        font-size: 15px;
+        padding:0px;
+        margin-top: 10px;
+    }
+
+    .martex {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .the {
+        width: 100%;
+        padding: 0px;
+        margin-left: 30px;
+    }
+
+    .the h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    .the p {
+        font-size: 16px;
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    .an {
+        width: 100%;
+        display: block;
+        padding: 0px;
+    }
+
+    .for {
+        margin-top: 40px;
+    }
+
+    .for img {
+        background-color: white;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+    .for h3 {
+        margin-top: 10px
+    }
+
+    .for p {
+        padding: 0px;
+        width: 70%;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .sec {
+        width: 100%;
+        margin-left: 10px;
+        display: block;
+        padding: 0px 0px;
+    }
+
+    .bos img {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .buil {
+        width: 90%;
+        padding: 0px;
+        margin-left: 10px;
+        margin-top: 50px
+    }
+
+    .buil p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .buil img {
+        width: 100%;
+        padding: 0px;
+        margin-left: 20px;
+    }
+
+    .buil h1 {
+        font-size: 23px;
+    }
+
+    .here {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .here h1 {
+        font-size: 31px;
+    }
+    .here p {
+        font-size: 15px;
+    }
+
+    .co {
+        width: 100%;
+        display: block;
+        padding: 5px;
+    }
+
+    .car {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .con {
+        margin-left: 15px;
+    }
+
+    .con p {
+        width: 90%;
+    }
+
+    .title {
+        width: 60%;
+        padding: 0;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    .for h3 {
+        font-size: 23px;
+    }
+
+    .ratings {
+        width: 50%;
+        display: block;
+        margin-left: 100px;
+    }
+
+    .auto {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .auto h1 {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .auto p {
+        font-size: 16px;
+    }
+    .faq-section h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .subtitle {
+        width: 100%;
+    }
+
+    .faq-container {
+        width: 97%;
+        margin-left: 10px;
+        display: block;
+    }
+
+    .con-boxs {
+        width: 100%;
+    }
+
+    .meta {
+        width: 100%;
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .inte {
+        gap: 20px;
+        width: 50%;
+        height: 100%;
+        display: ruby;
+        margin-left: 0px;
+    }
+
+    .in {
+        margin-left: 15px;
+    }
+    
+    .ge {
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .get {
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .get h1 {
+        margin-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .get h2 {
+        margin-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .get p {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .get h6 {
+        padding-right: 0px;
+    }
+
+    .butt {
+        padding: 20px 24px;
+        margin-left: 80px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .parre {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .singup {
+        margin-right: 50px;
+    }
+
+    .nav-buttons a {
+        margin-left: 31px;
+        display: none;
+    }
+
+    .faq-colm {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .bt {
+        margin-left: 60px;
+    }
+
+    .butto {
+        margin: 10px 50px;
+        margin-top: 100px;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 10px;
+        display: block;
+    }
+    .right img {
+        width: 95%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    .right h4 {
+        font-size: 10px;
+    }
+
+    .right h1 {
+        font-size: 40px;
+    }
+
+    .right p {
+        width: 410px;
+    }
+
+    .right ul {
+        width: 80%;
+    }
+    
+    .chil {
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 30px;
+        display: block;
+    }
+    
+    .footer-bottom p {
+        margin-left: 10px;
+    }
+
+    .text-section {
+        width: 90%;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .text-section h2 {
+        font-size: 25px;
+    }
+
+    .text-section p {
+        font-size: 19px;
+    }
+
+    .text-section ul {
+        margin-left: 0px;
+        width: 96%;
+    }
+    
+    .child {
+        width: 70%;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .child h1 {
+        font-size: 16px;
+    }
+
+    .child p {
+        font-size: 10px;
+    }
+
+    .child img {
+        width: 100%;
+    }
+
+    .content {
+        margin-left: 20px;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+        width: 91%;
+    }
+
+    .point li {
+        font-size: 16px;
+    }
+
+    .box {
+        margin-top: 30px;
+        width: 75%;
+        margin-left: 45px;
+    }
+
+    .boxs,
+    .box h3 {
+        display: block;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .logo-items {
+        display: contents;
+    }
+    .logo-items img {
+       width: 35%;
+    }
+
+    .Na {
+       margin-top: 40px;
+    }
+
+    .faq-section {
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .footer-section {
+        margin-top: 30px;
+    }
+
+    .feature {
+        width: 95%;
+        margin-left: 30px;
+        gap: 10px;
+    }
+
+    .img-box {
+        height: 100%;
+    }
+
+    .footer-bottom {
+        display: block;
+        margin-left: 55px;
+    }
+    .cone{
+        margin-bottom: 70px;
+    }
+
+    .rating-box {
+        margin-top: 30px;
+    }
+
+    .left img {
+        width: 85%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+ 
